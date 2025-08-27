@@ -29,7 +29,7 @@ while is_running:
                 print(f"You guessed it! {answer}")
                 num_of_guesses += 1
                 if num_of_guesses == 1:
-                    print(f"You guessed {num_of_guesses} time")
+                    print(f"You guessed once!")
                 else:
                     print(f"You guessed {num_of_guesses} times")
                 again = input("Do you want to play again? (y/n): ").lower()
