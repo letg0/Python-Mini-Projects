@@ -4,7 +4,6 @@ numbers = []
 for num in range(1, 101):
     numbers.append(num)
 
-num_of_guesses = 0
 is_running = True
 while is_running:
     answer = random.choice(numbers)
